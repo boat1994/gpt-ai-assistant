@@ -11,7 +11,7 @@ const config = Object.freeze({
   APP_DEBUG: env.APP_DEBUG === 'true' || false,
   APP_URL: env.APP_URL || null,
   APP_PORT: env.APP_PORT || null,
-  APP_LANG: env.APP_LANG || 'zh',
+  APP_LANG: env.APP_LANG || 'en',
   APP_WEBHOOK_PATH: env.APP_WEBHOOK_PATH || '/webhook',
   SETTING_AI_NAME: env.SETTING_AI_NAME || 'AI',
   SETTING_AI_ACTIVATED: env.SETTING_AI_ACTIVATED || null,
