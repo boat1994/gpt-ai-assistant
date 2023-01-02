@@ -48,7 +48,7 @@ const createCompletion = ({
 const createImage = ({
   prompt,
   n = 1,
-  size = IMAGE_SIZE_256,
+  size = IMAGE_SIZE_1024,
 }) => instance.post('/v1/images/generations', {
   prompt,
   n,
